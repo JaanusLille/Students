@@ -36,11 +36,13 @@ const ListStudentComponent = () => {
             <Link to = "/add-student" className = "btn btn-success mb-1" > Lisa tudeng </Link>
             <table className="table table-bordered table-striped">
                 <thead>
-                    <th> Tudengi Id </th>
-                    <th> Eesnimi </th>
-                    <th> Perekonnanimi </th>
-                    <th> E-post </th>
-                    <th> Valikud </th>
+                    <tr>
+                        <th> Tudengi Id </th>
+                        <th> Eesnimi </th>
+                        <th> Perekonnanimi </th>
+                        <th> E-post </th>
+                        <th> Valikud </th>
+                    </tr>
                 </thead>
                 <tbody>
                     {
